@@ -14,10 +14,10 @@ fi
 cd build
 
 xcodebuild -project "$WORKING_LOCATION/$APPLICATION_NAME/$APPLICATION_NAME.xcodeproj" \
-    -scheme "$APPLICATION_NAME Watch App" \
+    -scheme "$APPLICATION_NAME" \
     -configuration Release \
     -derivedDataPath "$WORKING_LOCATION/build/DerivedDataApp" \
-    -destination 'generic/platform=WatchOS' \
+    -destination 'generic/platform=iOS' \
     clean build \
     ONLY_ACTIVE_ARCH="NO" \
     CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGN_ENTITLEMENTS="" CODE_SIGNING_ALLOWED="NO" \

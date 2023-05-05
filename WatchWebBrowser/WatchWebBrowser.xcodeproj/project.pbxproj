@@ -7,49 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91AB549A2A047BCD00D46F5B /* WatchWebBrowser Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91AB54992A047BCD00D46F5B /* WatchWebBrowser Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		91AB549F2A047BCD00D46F5B /* WatchWebBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB549E2A047BCD00D46F5B /* WatchWebBrowserApp.swift */; };
-		91AB54A32A047BCF00D46F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91AB54A22A047BCF00D46F5B /* Assets.xcassets */; };
-		91AB54A62A047BCF00D46F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91AB54A52A047BCF00D46F5B /* Preview Assets.xcassets */; };
-		91AB54B02A047BCF00D46F5B /* WatchWebBrowser_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB54AF2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppTests.swift */; };
-		91AB54BA2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB54B92A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITests.swift */; };
-		91AB54BC2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB54BB2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift */; };
-		91AB54CD2A047BEC00D46F5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB54CC2A047BEC00D46F5B /* ContentView.swift */; };
-		91AB54CF2A047BF200D46F5B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB54CE2A047BF200D46F5B /* Settings.swift */; };
+		91D751562A047F8500BA51B5 /* WatchWebBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D751552A047F8500BA51B5 /* WatchWebBrowserApp.swift */; };
+		91D751582A047F8500BA51B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D751572A047F8500BA51B5 /* ContentView.swift */; };
+		91D7515A2A047F8600BA51B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D751592A047F8600BA51B5 /* Assets.xcassets */; };
+		91D7515D2A047F8600BA51B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D7515C2A047F8600BA51B5 /* Preview Assets.xcassets */; };
+		91D751672A047F8600BA51B5 /* WatchWebBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D751662A047F8600BA51B5 /* WatchWebBrowserTests.swift */; };
+		91D751712A047F8700BA51B5 /* WatchWebBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D751702A047F8700BA51B5 /* WatchWebBrowserUITests.swift */; };
+		91D751732A047F8700BA51B5 /* WatchWebBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D751722A047F8700BA51B5 /* WatchWebBrowserUITestsLaunchTests.swift */; };
+		91D751792A047F8700BA51B5 /* WatchWebBrowser Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91D751782A047F8700BA51B5 /* WatchWebBrowser Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91D7517E2A047F8700BA51B5 /* WatchWebBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D7517D2A047F8700BA51B5 /* WatchWebBrowserApp.swift */; };
+		91D751822A047F8700BA51B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D751812A047F8700BA51B5 /* Assets.xcassets */; };
+		91D751852A047F8700BA51B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D751842A047F8700BA51B5 /* Preview Assets.xcassets */; };
+		91D7518F2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D7518E2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppTests.swift */; };
+		91D751992A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D751982A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITests.swift */; };
+		91D7519B2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D7519A2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift */; };
+		91D751B22A047FA800BA51B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D751B12A047FA800BA51B5 /* ContentView.swift */; };
+		91D751B42A047FB100BA51B5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D751B32A047FB100BA51B5 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		91AB549B2A047BCD00D46F5B /* PBXContainerItemProxy */ = {
+		91D751632A047F8600BA51B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91AB548D2A047BCD00D46F5B /* Project object */;
+			containerPortal = 91D7514A2A047F8500BA51B5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 91AB54982A047BCD00D46F5B;
+			remoteGlobalIDString = 91D751512A047F8500BA51B5;
+			remoteInfo = WatchWebBrowser;
+		};
+		91D7516D2A047F8600BA51B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D7514A2A047F8500BA51B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D751512A047F8500BA51B5;
+			remoteInfo = WatchWebBrowser;
+		};
+		91D7517A2A047F8700BA51B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D7514A2A047F8500BA51B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D751772A047F8700BA51B5;
 			remoteInfo = "WatchWebBrowser Watch App";
 		};
-		91AB54AC2A047BCF00D46F5B /* PBXContainerItemProxy */ = {
+		91D7518B2A047F8800BA51B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91AB548D2A047BCD00D46F5B /* Project object */;
+			containerPortal = 91D7514A2A047F8500BA51B5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 91AB54982A047BCD00D46F5B;
+			remoteGlobalIDString = 91D751772A047F8700BA51B5;
 			remoteInfo = "WatchWebBrowser Watch App";
 		};
-		91AB54B62A047BCF00D46F5B /* PBXContainerItemProxy */ = {
+		91D751952A047F8800BA51B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 91AB548D2A047BCD00D46F5B /* Project object */;
+			containerPortal = 91D7514A2A047F8500BA51B5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 91AB54982A047BCD00D46F5B;
+			remoteGlobalIDString = 91D751772A047F8700BA51B5;
 			remoteInfo = "WatchWebBrowser Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		91AB54C22A047BCF00D46F5B /* Embed Watch Content */ = {
+		91D751A12A047F8800BA51B5 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				91AB549A2A047BCD00D46F5B /* WatchWebBrowser Watch App.app in Embed Watch Content */,
+				91D751792A047F8700BA51B5 /* WatchWebBrowser Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,36 +78,66 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		91AB54932A047BCD00D46F5B /* WatchWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		91AB54992A047BCD00D46F5B /* WatchWebBrowser Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchWebBrowser Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91AB549E2A047BCD00D46F5B /* WatchWebBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowserApp.swift; sourceTree = "<group>"; };
-		91AB54A22A047BCF00D46F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		91AB54A52A047BCF00D46F5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		91AB54AB2A047BCF00D46F5B /* WatchWebBrowser Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchWebBrowser Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91AB54AF2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowser_Watch_AppTests.swift; sourceTree = "<group>"; };
-		91AB54B52A047BCF00D46F5B /* WatchWebBrowser Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchWebBrowser Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91AB54B92A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowser_Watch_AppUITests.swift; sourceTree = "<group>"; };
-		91AB54BB2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowser_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		91AB54CC2A047BEC00D46F5B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		91AB54CE2A047BF200D46F5B /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		91D751522A047F8500BA51B5 /* WatchWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D751552A047F8500BA51B5 /* WatchWebBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowserApp.swift; sourceTree = "<group>"; };
+		91D751572A047F8500BA51B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91D751592A047F8600BA51B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D7515C2A047F8600BA51B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91D751622A047F8600BA51B5 /* WatchWebBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchWebBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D751662A047F8600BA51B5 /* WatchWebBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowserTests.swift; sourceTree = "<group>"; };
+		91D7516C2A047F8600BA51B5 /* WatchWebBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchWebBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D751702A047F8700BA51B5 /* WatchWebBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowserUITests.swift; sourceTree = "<group>"; };
+		91D751722A047F8700BA51B5 /* WatchWebBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91D751782A047F8700BA51B5 /* WatchWebBrowser Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchWebBrowser Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D7517D2A047F8700BA51B5 /* WatchWebBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowserApp.swift; sourceTree = "<group>"; };
+		91D751812A047F8700BA51B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D751842A047F8700BA51B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91D7518A2A047F8800BA51B5 /* WatchWebBrowser Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchWebBrowser Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D7518E2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowser_Watch_AppTests.swift; sourceTree = "<group>"; };
+		91D751942A047F8800BA51B5 /* WatchWebBrowser Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchWebBrowser Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D751982A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowser_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		91D7519A2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWebBrowser_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91D751B12A047FA800BA51B5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../WatchWebBrowser Watch App/ContentView.swift"; sourceTree = "<group>"; };
+		91D751B32A047FB100BA51B5 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = "../../WatchWebBrowser Watch App/Settings.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		91AB54962A047BCD00D46F5B /* Frameworks */ = {
+		91D7514F2A047F8500BA51B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91AB54A82A047BCF00D46F5B /* Frameworks */ = {
+		91D7515F2A047F8600BA51B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91AB54B22A047BCF00D46F5B /* Frameworks */ = {
+		91D751692A047F8600BA51B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D751752A047F8700BA51B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D751872A047F8800BA51B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D751912A047F8800BA51B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,60 +147,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		91AB548C2A047BCD00D46F5B = {
+		91D751492A047F8500BA51B5 = {
 			isa = PBXGroup;
 			children = (
-				91AB549D2A047BCD00D46F5B /* WatchWebBrowser Watch App */,
-				91AB54AE2A047BCF00D46F5B /* WatchWebBrowser Watch AppTests */,
-				91AB54B82A047BCF00D46F5B /* WatchWebBrowser Watch AppUITests */,
-				91AB54942A047BCD00D46F5B /* Products */,
+				91D751542A047F8500BA51B5 /* WatchWebBrowser */,
+				91D751652A047F8600BA51B5 /* WatchWebBrowserTests */,
+				91D7516F2A047F8700BA51B5 /* WatchWebBrowserUITests */,
+				91D7517C2A047F8700BA51B5 /* WatchWebBrowser Watch App */,
+				91D7518D2A047F8800BA51B5 /* WatchWebBrowser Watch AppTests */,
+				91D751972A047F8800BA51B5 /* WatchWebBrowser Watch AppUITests */,
+				91D751532A047F8500BA51B5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		91AB54942A047BCD00D46F5B /* Products */ = {
+		91D751532A047F8500BA51B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91AB54932A047BCD00D46F5B /* WatchWebBrowser.app */,
-				91AB54992A047BCD00D46F5B /* WatchWebBrowser Watch App.app */,
-				91AB54AB2A047BCF00D46F5B /* WatchWebBrowser Watch AppTests.xctest */,
-				91AB54B52A047BCF00D46F5B /* WatchWebBrowser Watch AppUITests.xctest */,
+				91D751522A047F8500BA51B5 /* WatchWebBrowser.app */,
+				91D751622A047F8600BA51B5 /* WatchWebBrowserTests.xctest */,
+				91D7516C2A047F8600BA51B5 /* WatchWebBrowserUITests.xctest */,
+				91D751782A047F8700BA51B5 /* WatchWebBrowser Watch App.app */,
+				91D7518A2A047F8800BA51B5 /* WatchWebBrowser Watch AppTests.xctest */,
+				91D751942A047F8800BA51B5 /* WatchWebBrowser Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		91AB549D2A047BCD00D46F5B /* WatchWebBrowser Watch App */ = {
+		91D751542A047F8500BA51B5 /* WatchWebBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				91AB54CC2A047BEC00D46F5B /* ContentView.swift */,
-				91AB54CE2A047BF200D46F5B /* Settings.swift */,
-				91AB549E2A047BCD00D46F5B /* WatchWebBrowserApp.swift */,
-				91AB54A22A047BCF00D46F5B /* Assets.xcassets */,
-				91AB54A42A047BCF00D46F5B /* Preview Content */,
+				91D751552A047F8500BA51B5 /* WatchWebBrowserApp.swift */,
+				91D751572A047F8500BA51B5 /* ContentView.swift */,
+				91D751592A047F8600BA51B5 /* Assets.xcassets */,
+				91D7515B2A047F8600BA51B5 /* Preview Content */,
 			);
-			path = "WatchWebBrowser Watch App";
+			path = WatchWebBrowser;
 			sourceTree = "<group>";
 		};
-		91AB54A42A047BCF00D46F5B /* Preview Content */ = {
+		91D7515B2A047F8600BA51B5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				91AB54A52A047BCF00D46F5B /* Preview Assets.xcassets */,
+				91D7515C2A047F8600BA51B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		91AB54AE2A047BCF00D46F5B /* WatchWebBrowser Watch AppTests */ = {
+		91D751652A047F8600BA51B5 /* WatchWebBrowserTests */ = {
 			isa = PBXGroup;
 			children = (
-				91AB54AF2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppTests.swift */,
+				91D751662A047F8600BA51B5 /* WatchWebBrowserTests.swift */,
+			);
+			path = WatchWebBrowserTests;
+			sourceTree = "<group>";
+		};
+		91D7516F2A047F8700BA51B5 /* WatchWebBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91D751702A047F8700BA51B5 /* WatchWebBrowserUITests.swift */,
+				91D751722A047F8700BA51B5 /* WatchWebBrowserUITestsLaunchTests.swift */,
+			);
+			path = WatchWebBrowserUITests;
+			sourceTree = "<group>";
+		};
+		91D7517C2A047F8700BA51B5 /* WatchWebBrowser Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				91D7517D2A047F8700BA51B5 /* WatchWebBrowserApp.swift */,
+				91D751B12A047FA800BA51B5 /* ContentView.swift */,
+				91D751B32A047FB100BA51B5 /* Settings.swift */,
+				91D751812A047F8700BA51B5 /* Assets.xcassets */,
+				91D751832A047F8700BA51B5 /* Preview Content */,
+			);
+			path = "WatchWebBrowser Watch App";
+			sourceTree = "<group>";
+		};
+		91D751832A047F8700BA51B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91D751842A047F8700BA51B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91D7518D2A047F8800BA51B5 /* WatchWebBrowser Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				91D7518E2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppTests.swift */,
 			);
 			path = "WatchWebBrowser Watch AppTests";
 			sourceTree = "<group>";
 		};
-		91AB54B82A047BCF00D46F5B /* WatchWebBrowser Watch AppUITests */ = {
+		91D751972A047F8800BA51B5 /* WatchWebBrowser Watch AppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				91AB54B92A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITests.swift */,
-				91AB54BB2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift */,
+				91D751982A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITests.swift */,
+				91D7519A2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "WatchWebBrowser Watch AppUITests";
 			sourceTree = "<group>";
@@ -157,30 +249,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91AB54922A047BCD00D46F5B /* WatchWebBrowser */ = {
+		91D751512A047F8500BA51B5 /* WatchWebBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91AB54C32A047BCF00D46F5B /* Build configuration list for PBXNativeTarget "WatchWebBrowser" */;
+			buildConfigurationList = 91D751A22A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowser" */;
 			buildPhases = (
-				91AB54912A047BCD00D46F5B /* Resources */,
-				91AB54C22A047BCF00D46F5B /* Embed Watch Content */,
+				91D7514E2A047F8500BA51B5 /* Sources */,
+				91D7514F2A047F8500BA51B5 /* Frameworks */,
+				91D751502A047F8500BA51B5 /* Resources */,
+				91D751A12A047F8800BA51B5 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				91AB549C2A047BCD00D46F5B /* PBXTargetDependency */,
+				91D7517B2A047F8700BA51B5 /* PBXTargetDependency */,
 			);
 			name = WatchWebBrowser;
 			productName = WatchWebBrowser;
-			productReference = 91AB54932A047BCD00D46F5B /* WatchWebBrowser.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
+			productReference = 91D751522A047F8500BA51B5 /* WatchWebBrowser.app */;
+			productType = "com.apple.product-type.application";
 		};
-		91AB54982A047BCD00D46F5B /* WatchWebBrowser Watch App */ = {
+		91D751612A047F8600BA51B5 /* WatchWebBrowserTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91AB54BF2A047BCF00D46F5B /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch App" */;
+			buildConfigurationList = 91D751A52A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowserTests" */;
 			buildPhases = (
-				91AB54952A047BCD00D46F5B /* Sources */,
-				91AB54962A047BCD00D46F5B /* Frameworks */,
-				91AB54972A047BCD00D46F5B /* Resources */,
+				91D7515E2A047F8600BA51B5 /* Sources */,
+				91D7515F2A047F8600BA51B5 /* Frameworks */,
+				91D751602A047F8600BA51B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D751642A047F8600BA51B5 /* PBXTargetDependency */,
+			);
+			name = WatchWebBrowserTests;
+			productName = WatchWebBrowserTests;
+			productReference = 91D751622A047F8600BA51B5 /* WatchWebBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91D7516B2A047F8600BA51B5 /* WatchWebBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D751A82A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowserUITests" */;
+			buildPhases = (
+				91D751682A047F8600BA51B5 /* Sources */,
+				91D751692A047F8600BA51B5 /* Frameworks */,
+				91D7516A2A047F8600BA51B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D7516E2A047F8600BA51B5 /* PBXTargetDependency */,
+			);
+			name = WatchWebBrowserUITests;
+			productName = WatchWebBrowserUITests;
+			productReference = 91D7516C2A047F8600BA51B5 /* WatchWebBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		91D751772A047F8700BA51B5 /* WatchWebBrowser Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D7519E2A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch App" */;
+			buildPhases = (
+				91D751742A047F8700BA51B5 /* Sources */,
+				91D751752A047F8700BA51B5 /* Frameworks */,
+				91D751762A047F8700BA51B5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -188,72 +318,80 @@
 			);
 			name = "WatchWebBrowser Watch App";
 			productName = "WatchWebBrowser Watch App";
-			productReference = 91AB54992A047BCD00D46F5B /* WatchWebBrowser Watch App.app */;
+			productReference = 91D751782A047F8700BA51B5 /* WatchWebBrowser Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		91AB54AA2A047BCF00D46F5B /* WatchWebBrowser Watch AppTests */ = {
+		91D751892A047F8800BA51B5 /* WatchWebBrowser Watch AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91AB54C62A047BCF00D46F5B /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch AppTests" */;
+			buildConfigurationList = 91D751AB2A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch AppTests" */;
 			buildPhases = (
-				91AB54A72A047BCF00D46F5B /* Sources */,
-				91AB54A82A047BCF00D46F5B /* Frameworks */,
-				91AB54A92A047BCF00D46F5B /* Resources */,
+				91D751862A047F8800BA51B5 /* Sources */,
+				91D751872A047F8800BA51B5 /* Frameworks */,
+				91D751882A047F8800BA51B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				91AB54AD2A047BCF00D46F5B /* PBXTargetDependency */,
+				91D7518C2A047F8800BA51B5 /* PBXTargetDependency */,
 			);
 			name = "WatchWebBrowser Watch AppTests";
 			productName = "WatchWebBrowser Watch AppTests";
-			productReference = 91AB54AB2A047BCF00D46F5B /* WatchWebBrowser Watch AppTests.xctest */;
+			productReference = 91D7518A2A047F8800BA51B5 /* WatchWebBrowser Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		91AB54B42A047BCF00D46F5B /* WatchWebBrowser Watch AppUITests */ = {
+		91D751932A047F8800BA51B5 /* WatchWebBrowser Watch AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91AB54C92A047BCF00D46F5B /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch AppUITests" */;
+			buildConfigurationList = 91D751AE2A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch AppUITests" */;
 			buildPhases = (
-				91AB54B12A047BCF00D46F5B /* Sources */,
-				91AB54B22A047BCF00D46F5B /* Frameworks */,
-				91AB54B32A047BCF00D46F5B /* Resources */,
+				91D751902A047F8800BA51B5 /* Sources */,
+				91D751912A047F8800BA51B5 /* Frameworks */,
+				91D751922A047F8800BA51B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				91AB54B72A047BCF00D46F5B /* PBXTargetDependency */,
+				91D751962A047F8800BA51B5 /* PBXTargetDependency */,
 			);
 			name = "WatchWebBrowser Watch AppUITests";
 			productName = "WatchWebBrowser Watch AppUITests";
-			productReference = 91AB54B52A047BCF00D46F5B /* WatchWebBrowser Watch AppUITests.xctest */;
+			productReference = 91D751942A047F8800BA51B5 /* WatchWebBrowser Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		91AB548D2A047BCD00D46F5B /* Project object */ = {
+		91D7514A2A047F8500BA51B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					91AB54922A047BCD00D46F5B = {
+					91D751512A047F8500BA51B5 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					91AB54982A047BCD00D46F5B = {
+					91D751612A047F8600BA51B5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 91D751512A047F8500BA51B5;
+					};
+					91D7516B2A047F8600BA51B5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 91D751512A047F8500BA51B5;
+					};
+					91D751772A047F8700BA51B5 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					91AB54AA2A047BCF00D46F5B = {
+					91D751892A047F8800BA51B5 = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 91AB54982A047BCD00D46F5B;
+						TestTargetID = 91D751772A047F8700BA51B5;
 					};
-					91AB54B42A047BCF00D46F5B = {
+					91D751932A047F8800BA51B5 = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 91AB54982A047BCD00D46F5B;
+						TestTargetID = 91D751772A047F8700BA51B5;
 					};
 				};
 			};
-			buildConfigurationList = 91AB54902A047BCD00D46F5B /* Build configuration list for PBXProject "WatchWebBrowser" */;
+			buildConfigurationList = 91D7514D2A047F8500BA51B5 /* Build configuration list for PBXProject "WatchWebBrowser" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -261,44 +399,62 @@
 				en,
 				Base,
 			);
-			mainGroup = 91AB548C2A047BCD00D46F5B;
-			productRefGroup = 91AB54942A047BCD00D46F5B /* Products */;
+			mainGroup = 91D751492A047F8500BA51B5;
+			productRefGroup = 91D751532A047F8500BA51B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91AB54922A047BCD00D46F5B /* WatchWebBrowser */,
-				91AB54982A047BCD00D46F5B /* WatchWebBrowser Watch App */,
-				91AB54AA2A047BCF00D46F5B /* WatchWebBrowser Watch AppTests */,
-				91AB54B42A047BCF00D46F5B /* WatchWebBrowser Watch AppUITests */,
+				91D751512A047F8500BA51B5 /* WatchWebBrowser */,
+				91D751612A047F8600BA51B5 /* WatchWebBrowserTests */,
+				91D7516B2A047F8600BA51B5 /* WatchWebBrowserUITests */,
+				91D751772A047F8700BA51B5 /* WatchWebBrowser Watch App */,
+				91D751892A047F8800BA51B5 /* WatchWebBrowser Watch AppTests */,
+				91D751932A047F8800BA51B5 /* WatchWebBrowser Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		91AB54912A047BCD00D46F5B /* Resources */ = {
+		91D751502A047F8500BA51B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D7515D2A047F8600BA51B5 /* Preview Assets.xcassets in Resources */,
+				91D7515A2A047F8600BA51B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D751602A047F8600BA51B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91AB54972A047BCD00D46F5B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91AB54A62A047BCF00D46F5B /* Preview Assets.xcassets in Resources */,
-				91AB54A32A047BCF00D46F5B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91AB54A92A047BCF00D46F5B /* Resources */ = {
+		91D7516A2A047F8600BA51B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91AB54B32A047BCF00D46F5B /* Resources */ = {
+		91D751762A047F8700BA51B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D751852A047F8700BA51B5 /* Preview Assets.xcassets in Resources */,
+				91D751822A047F8700BA51B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D751882A047F8800BA51B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D751922A047F8800BA51B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,55 +464,91 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		91AB54952A047BCD00D46F5B /* Sources */ = {
+		91D7514E2A047F8500BA51B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91AB54CF2A047BF200D46F5B /* Settings.swift in Sources */,
-				91AB54CD2A047BEC00D46F5B /* ContentView.swift in Sources */,
-				91AB549F2A047BCD00D46F5B /* WatchWebBrowserApp.swift in Sources */,
+				91D751582A047F8500BA51B5 /* ContentView.swift in Sources */,
+				91D751562A047F8500BA51B5 /* WatchWebBrowserApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91AB54A72A047BCF00D46F5B /* Sources */ = {
+		91D7515E2A047F8600BA51B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91AB54B02A047BCF00D46F5B /* WatchWebBrowser_Watch_AppTests.swift in Sources */,
+				91D751672A047F8600BA51B5 /* WatchWebBrowserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91AB54B12A047BCF00D46F5B /* Sources */ = {
+		91D751682A047F8600BA51B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91AB54BC2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift in Sources */,
-				91AB54BA2A047BCF00D46F5B /* WatchWebBrowser_Watch_AppUITests.swift in Sources */,
+				91D751732A047F8700BA51B5 /* WatchWebBrowserUITestsLaunchTests.swift in Sources */,
+				91D751712A047F8700BA51B5 /* WatchWebBrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D751742A047F8700BA51B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D751B42A047FB100BA51B5 /* Settings.swift in Sources */,
+				91D751B22A047FA800BA51B5 /* ContentView.swift in Sources */,
+				91D7517E2A047F8700BA51B5 /* WatchWebBrowserApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D751862A047F8800BA51B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D7518F2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D751902A047F8800BA51B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D7519B2A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITestsLaunchTests.swift in Sources */,
+				91D751992A047F8800BA51B5 /* WatchWebBrowser_Watch_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		91AB549C2A047BCD00D46F5B /* PBXTargetDependency */ = {
+		91D751642A047F8600BA51B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91AB54982A047BCD00D46F5B /* WatchWebBrowser Watch App */;
-			targetProxy = 91AB549B2A047BCD00D46F5B /* PBXContainerItemProxy */;
+			target = 91D751512A047F8500BA51B5 /* WatchWebBrowser */;
+			targetProxy = 91D751632A047F8600BA51B5 /* PBXContainerItemProxy */;
 		};
-		91AB54AD2A047BCF00D46F5B /* PBXTargetDependency */ = {
+		91D7516E2A047F8600BA51B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91AB54982A047BCD00D46F5B /* WatchWebBrowser Watch App */;
-			targetProxy = 91AB54AC2A047BCF00D46F5B /* PBXContainerItemProxy */;
+			target = 91D751512A047F8500BA51B5 /* WatchWebBrowser */;
+			targetProxy = 91D7516D2A047F8600BA51B5 /* PBXContainerItemProxy */;
 		};
-		91AB54B72A047BCF00D46F5B /* PBXTargetDependency */ = {
+		91D7517B2A047F8700BA51B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91AB54982A047BCD00D46F5B /* WatchWebBrowser Watch App */;
-			targetProxy = 91AB54B62A047BCF00D46F5B /* PBXContainerItemProxy */;
+			target = 91D751772A047F8700BA51B5 /* WatchWebBrowser Watch App */;
+			targetProxy = 91D7517A2A047F8700BA51B5 /* PBXContainerItemProxy */;
+		};
+		91D7518C2A047F8800BA51B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D751772A047F8700BA51B5 /* WatchWebBrowser Watch App */;
+			targetProxy = 91D7518B2A047F8800BA51B5 /* PBXContainerItemProxy */;
+		};
+		91D751962A047F8800BA51B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D751772A047F8700BA51B5 /* WatchWebBrowser Watch App */;
+			targetProxy = 91D751952A047F8800BA51B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		91AB54BD2A047BCF00D46F5B /* Debug */ = {
+		91D7519C2A047F8800BA51B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,7 +606,7 @@
 			};
 			name = Debug;
 		};
-		91AB54BE2A047BCF00D46F5B /* Release */ = {
+		91D7519D2A047F8800BA51B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -465,7 +657,7 @@
 			};
 			name = Release;
 		};
-		91AB54C02A047BCF00D46F5B /* Debug */ = {
+		91D7519F2A047F8800BA51B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -478,7 +670,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchWebBrowser;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jonathan.WatchWebBrowser;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,11 +684,11 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
-		91AB54C12A047BCF00D46F5B /* Release */ = {
+		91D751A02A047F8800BA51B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -508,7 +701,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchWebBrowser;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKWatchOnly = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jonathan.WatchWebBrowser;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,44 +716,162 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
-		91AB54C42A047BCF00D46F5B /* Debug */ = {
+		91D751A32A047F8800BA51B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchWebBrowser/Preview Content\"";
 				DEVELOPMENT_TEAM = WF4J3YQN3K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchWebBrowser;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.WatchWebBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		91AB54C52A047BCF00D46F5B /* Release */ = {
+		91D751A42A047F8800BA51B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchWebBrowser/Preview Content\"";
 				DEVELOPMENT_TEAM = WF4J3YQN3K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchWebBrowser;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.WatchWebBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		91AB54C72A047BCF00D46F5B /* Debug */ = {
+		91D751A62A047F8800BA51B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WF4J3YQN3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.WatchWebBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchWebBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchWebBrowser";
+			};
+			name = Debug;
+		};
+		91D751A72A047F8800BA51B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WF4J3YQN3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.WatchWebBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchWebBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchWebBrowser";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D751A92A047F8800BA51B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WF4J3YQN3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.WatchWebBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatchWebBrowser;
+			};
+			name = Debug;
+		};
+		91D751AA2A047F8800BA51B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WF4J3YQN3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.WatchWebBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatchWebBrowser;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D751AC2A047F8800BA51B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -580,7 +892,7 @@
 			};
 			name = Debug;
 		};
-		91AB54C82A047BCF00D46F5B /* Release */ = {
+		91D751AD2A047F8800BA51B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -602,7 +914,7 @@
 			};
 			name = Release;
 		};
-		91AB54CA2A047BCF00D46F5B /* Debug */ = {
+		91D751AF2A047F8800BA51B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -622,7 +934,7 @@
 			};
 			name = Debug;
 		};
-		91AB54CB2A047BCF00D46F5B /* Release */ = {
+		91D751B02A047F8800BA51B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -646,52 +958,70 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91AB54902A047BCD00D46F5B /* Build configuration list for PBXProject "WatchWebBrowser" */ = {
+		91D7514D2A047F8500BA51B5 /* Build configuration list for PBXProject "WatchWebBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91AB54BD2A047BCF00D46F5B /* Debug */,
-				91AB54BE2A047BCF00D46F5B /* Release */,
+				91D7519C2A047F8800BA51B5 /* Debug */,
+				91D7519D2A047F8800BA51B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91AB54BF2A047BCF00D46F5B /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch App" */ = {
+		91D7519E2A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91AB54C02A047BCF00D46F5B /* Debug */,
-				91AB54C12A047BCF00D46F5B /* Release */,
+				91D7519F2A047F8800BA51B5 /* Debug */,
+				91D751A02A047F8800BA51B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91AB54C32A047BCF00D46F5B /* Build configuration list for PBXNativeTarget "WatchWebBrowser" */ = {
+		91D751A22A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91AB54C42A047BCF00D46F5B /* Debug */,
-				91AB54C52A047BCF00D46F5B /* Release */,
+				91D751A32A047F8800BA51B5 /* Debug */,
+				91D751A42A047F8800BA51B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91AB54C62A047BCF00D46F5B /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch AppTests" */ = {
+		91D751A52A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowserTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91AB54C72A047BCF00D46F5B /* Debug */,
-				91AB54C82A047BCF00D46F5B /* Release */,
+				91D751A62A047F8800BA51B5 /* Debug */,
+				91D751A72A047F8800BA51B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91AB54C92A047BCF00D46F5B /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch AppUITests" */ = {
+		91D751A82A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowserUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91AB54CA2A047BCF00D46F5B /* Debug */,
-				91AB54CB2A047BCF00D46F5B /* Release */,
+				91D751A92A047F8800BA51B5 /* Debug */,
+				91D751AA2A047F8800BA51B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D751AB2A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D751AC2A047F8800BA51B5 /* Debug */,
+				91D751AD2A047F8800BA51B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D751AE2A047F8800BA51B5 /* Build configuration list for PBXNativeTarget "WatchWebBrowser Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D751AF2A047F8800BA51B5 /* Debug */,
+				91D751B02A047F8800BA51B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 91AB548D2A047BCD00D46F5B /* Project object */;
+	rootObject = 91D7514A2A047F8500BA51B5 /* Project object */;
 }
