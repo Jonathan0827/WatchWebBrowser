@@ -61,11 +61,12 @@ struct urlView: View {
         session.prefersEphemeralWebBrowserSession = true
 
         session.start()
+        urlString = ""
     }
 }
 struct searchView: View {
     @State var searchString: String = ""
-    @AppStorage("searchEngine") var searchEngine = "google"
+    @AppStorage("searchEngine") var searchEngine = "Google"
     var body: some View {
         NavigationView{
             VStack{
@@ -105,6 +106,7 @@ struct searchView: View {
         session.prefersEphemeralWebBrowserSession = true
 
         session.start()
+        searchString = ""
     }
 }
 //struct ContentView: View {
